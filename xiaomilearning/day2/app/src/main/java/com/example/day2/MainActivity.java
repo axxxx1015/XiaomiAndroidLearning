@@ -17,7 +17,6 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        // 加载res/layout中布局文件，也可以在这里直接输
         setContentView(R.layout.activity_main);
 
         viewPager = findViewById(R.id.viewPager);
@@ -46,6 +45,5 @@ public class MainActivity extends AppCompatActivity {
         btn2.setOnClickListener(v -> viewPager.setCurrentItem(1));
         btn3.setOnClickListener(v -> viewPager.setCurrentItem(2));
 
-        // 可选：ViewPager页面切换时同步按钮状态（比如高亮当前按钮）
     }
 }
