@@ -37,11 +37,11 @@ hello1/                      # 项目根目录
 
 本次任务较为简单，主要在模板基础上修改使用下面两个文件
 
-<img src="E:\wechat\WeChat Files\wxid_i0y9mm8o6dqp22\FileStorage\Temp\0f89f9c1077441d7b50610cdb684172.png" alt="0f89f9c1077441d7b50610cdb684172" style="zoom: 25%;" />
+<img src="https://i.ooxx.ooo/i/MzNmN.png" style="zoom:25%;" />
 
 ​									hello1/app/src/main/res/layout/activity_main.xml
 
-<img src="E:\wechat\WeChat Files\wxid_i0y9mm8o6dqp22\FileStorage\Temp\e02befa91ce7cfe9de950bed2c02548.png" alt="e02befa91ce7cfe9de950bed2c02548" style="zoom: 25%;" />
+<img src="https://i.ooxx.ooo/i/NGVhO.png" style="zoom:25%;" />
 
 ​							hello1/app/src/main/java/com/example/hello1/MainActivity.java
 
@@ -51,7 +51,9 @@ hello1/                      # 项目根目录
 
 **任务3.**
 
-<img src="C:\Users\w2069\AppData\Roaming\Typora\typora-user-images\image-20250616204956639.png" alt="image-20250616204956639" style="zoom: 50%;" />
+<img src="https://i.ooxx.ooo/i/MTk1O.jpg" style="zoom: 25%;" />
+
+
 
 
 
