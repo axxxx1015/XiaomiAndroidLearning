@@ -51,13 +51,19 @@
 3. 快捷功能区（6个功能图标，4列2行布局）
 4. 常见问题区域（标题 + 问题列表）
 
+如下：
+
+<img src="https://img.picui.cn/free/2025/06/18/6852c4ad345fe.jpg" alt="71204d1d6779a9dd443cea747fa39ca.jpg" style="zoom:25%;" />
+
+
+
 ----
 
 **Published by**：tttaaayyyx
 
 2025年6月18日
 
-[https://github.com/axxxx1015/XiaomiAndroidLearning/tree/master/xiaomilearning](https://github.com/axxxx1015/XiaomiAndroidLearning/tree/master/xiaomilearning)
+[https://github.com/axxxx1015/XiaomiAndroidLearning](https://github.com/axxxx1015/XiaomiAndroidLearning)
 
 ----
 
