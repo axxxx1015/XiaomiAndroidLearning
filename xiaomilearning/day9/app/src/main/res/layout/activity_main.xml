@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="咖啡店订单系统"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="选择咖啡类型："
+            android:textSize="18sp"/>
+        <RadioGroup
+            android:id="@+id/coffeeTypeGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/rbEspresso"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Espresso"/>
+            <RadioButton
+                android:id="@+id/rbLatte"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Latte"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="选择配料："
+            android:textSize="18sp"
+            android:paddingTop="12dp"/>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <CheckBox
+                android:id="@+id/cbMilk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="牛奶"/>
+            <CheckBox
+                android:id="@+id/cbSugar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="糖"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="选择支付方式："
+            android:textSize="18sp"
+            android:paddingTop="12dp"/>
+        <RadioGroup
+            android:id="@+id/paymentGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/rbAlipay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="支付宝"/>
+            <RadioButton
+                android:id="@+id/rbWechat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="微信"/>
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnOrder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="下单"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/tvOrderStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="订单状态将在这里显示"
+            android:textSize="16sp"
+            android:paddingTop="24dp"
+            android:textColor="#333333"/>
+
+    </LinearLayout>
+</ScrollView> 
