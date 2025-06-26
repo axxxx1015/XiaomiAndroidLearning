@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/btn_anr"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="触发ANR"
+        android:textSize="20sp"
+        android:layout_marginBottom="12dp" />
+
+    <EditText
+        android:id="@+id/edit_stack"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="ANR堆栈信息"
+        android:gravity="top|start"
+        android:inputType="textMultiLine"
+        android:background="@android:color/darker_gray"
+        android:textColor="@android:color/black"
+        android:textSize="14sp"
+        android:padding="8dp"
+        android:focusable="false"
+        android:cursorVisible="false"
+        android:scrollbars="vertical"/>
+
+</LinearLayout> 
