@@ -1,5 +1,3 @@
-这里是日常作业页面。
-
 第一次作业：Hello World  
 点此跳转（@https://github.com/axxxx1015/XiaomiAndroidLearning/blob/master/day1/README.md）
 
